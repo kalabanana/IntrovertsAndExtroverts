@@ -57,7 +57,7 @@ public class SimulationEngine {
     public boolean addCustomer()
     {
         
-        customers.add(new Introvert());
+        customers.add(new Introvert("Customer1"));
         System.out.println("Customer added.");
         return true;
     }
